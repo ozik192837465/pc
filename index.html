@@ -1,367 +1,453 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Продажи</title>
-    <link rel="stylesheet" href="style1.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript">
-    const searchDevice = () => {if( navigator.userAgent.match(/Android/i)
-    || navigator.userAgent.match(/webOS/i)
-    || navigator.userAgent.match(/iPhone/i)
-    || navigator.userAgent.match(/iPad/i)
-    || navigator.userAgent.match(/iPod/i)
-    || navigator.userAgent.match(/BlackBerry/i)
-    || navigator.userAgent.match(/Windows Phone/i)
-    ){
-    return true;
-    }
-    else {
-    return false; }
-    if (searchDevice()) {document.location.href = "https://dmitru1.github.io/index1.html"} 
-</script>
-  </head>
-  <body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>BulkApp</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body data-spy="scroll" data-target="#mainNav" data-offset="70">
 
-      <!-- Первые три блока -->
-      <div class="first-line">
-        <div class="first-left">
-            <div class="left-text">
-                <div class="earned"><p>Заработано</p></div>
-                <div class="missed"><p>Упущенная прибыль</p></div>
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+
+        <!--================Header Menu Area =================-->
+
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area" id="home">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row banner_content">
+						<div class="col-lg-9">
+							<h2>Накрутка лайков <br /> и подписчиков</h2>
+							<p>Мы накручиваем лайки и подписчиков легальными способами, по этому риск бана аккаунта приближен к нулю. </p>
+							<a class="banner_btn" href="#">Заказать</a>
+						</div>
+						<div class="col-lg-3">
+							<div class="banner_map_img">
+								<img class="img-fluid" src="img/banner/right-mobile.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
-            <div class="left-num">
-                <p>254000 / 765000</p>
-            </div>
-        </div>
+        </section>
+        <!--================End Home Banner Area =================-->
 
-        <div class="first-center">
-          <div class="center-text"><a>Всего продаж</a></div>
-          <div class="center-num"><a>5324</a></div>
-        </div>
+        <!--================Feature Area =================
+        <section class="feature_area p_120" id="feature">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Unique Features</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+        					<img src="img/icon/f-icon-1.png" alt="">
+        					<h4>Maintenance</h4>
+        					<p>inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+        					<img src="img/icon/f-icon-1.png" alt="">
+        					<h4>Maintenance</h4>
+        					<p>inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+        					<img src="img/icon/f-icon-1.png" alt="">
+        					<h4>Maintenance</h4>
+        					<p>inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-3 col-md-6">
+        				<div class="feature_item">
+        					<img src="img/icon/f-icon-1.png" alt="">
+        					<h4>Maintenance</h4>
+        					<p>inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Feature Area =================-->
 
-        <div class="first-right">
-          <div class="right-text"><a>Заявок</a></div>
-          <div class="right-num"><a>1500</a></div>
-        </div>
-      </div>
+        <!--================Interior Area =================-->
+        <section class="interior_area">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-6">
+        				<img class="img-fluid" src="img/interior-1.png" alt="">
+        			</div>
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4>ВЫСОКОЕ КАЧЕСТВО, АДЕКВАТНЫЕ ЦЕНЫ, ЛЕГКОСТЬ ЗАКАЗА! </h4>
+        					<p>Количество лайков — первое, на что обращает внимание каждый пользователь Инстаграм. Благодаря лайкам публикации попадают в топ и рекомендуемое. Чтобы попасть в топ абсолютного большинства подборок инстаграм, достаточно в короткие сроки получить на свою публикацию всего несколько тысяч лайков. Считается, что эталон количества лайков под каждой публикацией - 10% от количества подписчиков на данной странице. Если лайков значительно меньше, это сразу бросается в глаза и вызывает недоверие.</p>
+        					<a class="main_btn" href="#">Подробнее</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Interior Area =================-->
 
+        <!--================Interior Area =================
+        <section class="interior_area interior_two">
+        	<div class="container">
+        		<div class="interior_inner row">
+        			<div class="col-lg-5 offset-lg-1">
+        				<div class="interior_text">
+        					<h4>We Believe that Interior beautifies the Total Architecture</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off.</p>
+        					<a class="main_btn" href="#">See Details</a>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<img class="img-fluid" src="img/interior-2.png" alt="">
+        			</div>
+        		</div>
+        		<div class="video_area" id="video">
+        			<img class="img-fluid" src="img/video-1.png" alt="">
+        			<a class="popup-youtube" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
+        				<img src="img/icon/video-icon-1.png" alt="">
+        			</a>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Interior Area =================-->
 
-      <!-- Три кнопки (Продажи, Заявки, Реферальные ссылки) -->
+        <!--================Price Area =================-->
+        <section class="price_area p_120" id="price">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Прайс лист</h2>
+        			<p>Все цены и скидки уточнять у администратора.</p>
+        		</div>
+        		<div class="price_item_inner row">
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+        							<h3>Стандарт</h3>
+        							<p>Standart</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>99 руб</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">1000 живых подписчиков</a></li>
+        							<li><a href="#">Гарантия качества</a></li>
+        							<li><a href="#">Поднятие в топ</a></li>
+        							<li><a href="#">Бесплатный видеоурок</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="#">Купить пакет</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+                      <h3>Стандарт</h3>
+        							<p>Standart</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>99 руб</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">1000 лайков</a></li>
+        							<li><a href="#">Гарантия качества</a></li>
+        							<li><a href="#">Поднятие в топ</a></li>
+        							<li><a href="#">Бесплатный видеоурок</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="#">Купить пакет</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="price_item">
+        					<div class="price_head">
+        						<div class="float-left">
+        							<h3>Премиум</h3>
+        							<p>Premium</p>
+        						</div>
+        						<div class="float-right">
+        							<h2>1099 руб</h2>
+        						</div>
+        					</div>
+        					<div class="price_body">
+        						<ul class="list">
+        							<li><a href="#">10000 подписчиков</a></li>
+        							<li><a href="#">10000 лайков</a></li>
+        							<li><a href="#">Гарантия качества</a></li>
+        							<li><a href="#">Бесплатный курс видеоуроков</a></li>
+        						</ul>
+        					</div>
+        					<div class="price_footer">
+        						<a class="main_btn2" href="#">Купить план</a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Price Area =================-->
 
-        <div class="buttons">
+        <!--================Feature Area =================-->
+        <section class="screenshot_area p_120" id="screen">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Отзывы</h2>
+        			<p>Отзывы клиентов являются подлинными.</p>
+        		</div>
+        		<div class="screenshot_inner owl-carousel">
+        			<div class="item">
+        				<img src="img/feature/feature-1.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/feature/feature-2.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/feature/feature-3.jpg" alt="">
+        			</div>
+        			<div class="item">
+        				<img src="img/feature/feature-4.jpg" alt="">
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
 
-            <a id="first-button" onclick="aClick(this)">Продажи</a>
+        <!--================Testimonials Area =================
+        <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Благодарность за помощь в создание сайта</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="testi_slider owl-carousel">
+        			<div class="item">
+        				<div class="testi_item">
+							<div class="media">
+								<div class="d-flex">
+									<img src="img/testimonials/testi-1.png" alt="">
+								</div>
+								<div class="media-body">
+									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<h4>Mark Alviro Wiens</h4>
+									<h5>CEO at Google</h5>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        			<div class="item">
+        				<div class="testi_item">
+							<div class="media">
+								<div class="d-flex">
+									<img src="img/testimonials/testi-2.png" alt="">
+								</div>
+								<div class="media-body">
+									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<h4>Mark Alviro Wiens</h4>
+									<h5>CEO at Google</h5>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>-->
+        <!--================End Testimonials Area =================-->
 
-            <a id="second-button" onclick="bClick(this)">Заявки</a>
+        <!--================Download App Area =================-->
+        <section class="download_app_area p_120">
+        	<div class="container">
+        		<div class="app_inner">
+        			<h2>Download This App Today!</h2>
+        			<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological advancement are concerned.</p>
+        			<div class="app_btn_area">
+        				<div class="app_btn">
+        					<div class="media">
+								<div class="d-flex">
+									<i class="fa fa-apple" aria-hidden="true"></i>
+								</div>
+								<div class="media-body">
+									<a href="#"><h4>Available</h4></a>
+									<p>on App Store</p>
+								</div>
+							</div>
+        				</div>
+        				<div class="app_btn">
+        					<div class="media">
+								<div class="d-flex">
+									<i class="fa fa-android" aria-hidden="true"></i>
+								</div>
+								<div class="media-body">
+									<a href="#"><h4>Available</h4></a>
+									<p>on App Store</p>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Download App Area =================-->
 
-            <a id="third-button" onclick="cClick(this)">Реферальные ссылки</a>
+        <!--================Latest News Area =================-->
+        <section class="latest_news_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Новости</h2>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        		</div>
+        		<div class="latest_news_inner row">
+        			<div class="col-lg-4">
+        				<div class="l_news_item">
+        					<a class="date" href="#">10 April, 2018</a>
+        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
+        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
+        					<div class="post_view">
+        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
+        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
+        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_news_item">
+        					<a class="date" href="#">10 April, 2018</a>
+        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
+        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
+        					<div class="post_view">
+        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
+        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
+        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_news_item">
+        					<a class="date" href="#">10 April, 2018</a>
+        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
+        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
+        					<div class="post_view">
+        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
+        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
+        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Latest News Area =================-->
 
-        </div>
-
-
-      <!-- Контент -->
-      <div class="content">
-
-          <!-- Левая часть -->
-          <div class="left-row">
-
-              <!-- Первый график -->
-              <div class="first-graph">
-
-                <div class="first-graph-header">
-                  <div class="first-graph-buttons">
-                    <div class="first-graph-buttons-1"><a>За последний месяц</a></div>
-                    <div class="first-graph-buttons-2"><a>10 линий</a></div>
-                    <div class="first-graph-buttons-3"><a>Все города</a></div>
-                  </div>
-
-                  <div class="first-graph-text">
-                    <div class="first-graph-text-1">Итого <br>за период</div>
-                    <div class="first-graph-text-2">1500</div>
-                  </div>
-                </div>
-
-                <div class="first-graph-content">
-                  <img src="2.jpg" alt="">
-                </div>
-              </div>
-
-              <!-- Второй график -->
-              <div class="second-graph">
-
-                  <div class="second-graph-caption">
-                    <h2>Выплаты за продажи по линиям</h2>
-                  </div>
-
-                  <div class="second-graph-content">
-
-                    <div class="second-graph-header">
-                      <div>Старт</div>
-                      <div>Лайт</div>
-                      <div>Премиум</div>
-                      <div>Элит</div>
+        <!--================ start footer Area  =================-->
+        <footer class="footer-area p_120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget tp_widgets">
+                           <h6 class="footer_title">Top Products</h6>
+                            <ul class="list">
+                            	<li><a href="#">Managed Website</a></li>
+                            	<li><a href="#">Manage Reputation</a></li>
+                            	<li><a href="#">Power Tools</a></li>
+                            	<li><a href="#">Marketing Service</a></li>
+                            </ul>
+                        </div>
                     </div>
-
-                    <hr class="hr">
-
-                    <div class="second-graph-table">
-                      <div class="second-graph-table-1">
-                        <div>1 линия</div>
-                        <div>2 линия</div>
-                        <div>3 линия</div>
-                        <div>4 линия</div>
-                        <div>5 линия</div>
-                        <div>6 линия</div>
-                        <div>7 линия</div>
-                        <div>8 линия</div>
-                        <div>9 линия</div>
-                        <div>10 линия</div>
-                      </div>
-                      <div class="second-graph-table-2">
-                        <div>50</div>
-                        <div>150</div>
-                        <div>300</div>
-                        <div>350</div>
-                        <div>150</div>
-                        <div>200</div>
-                        <div>300</div>
-                        <div>500</div>
-                        <div>300</div>
-                        <div>200</div>
-                      </div>
-                      <div class="second-graph-table-3">
-                        <img src="32.jpg" height="247px" width="200px" alt="">
-                      </div>
-                      <div class="second-graph-table-4">
-                        <div>1 000</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                      </div>
-                      <div class="second-graph-table-5">
-                        <div>3 000</div>
-                        <div>3 000</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                      </div>
-                      <div class="second-graph-table-6">
-                        <div>5 000</div>
-                        <div>9 000</div>
-                        <div>6 000</div>
-                        <div>3 500</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                        <div>-</div>
-                      </div>
-                      <div class="second-graph-table-7">
-                        <div>10 000</div>
-                        <div>15 000</div>
-                        <div>18 000</div>
-                        <div>7 500&nbsp;&nbsp;</div>
-                        <div>1 500&nbsp;&nbsp;</div>
-                        <div>2 000&nbsp;&nbsp;</div>
-                        <div>6 000&nbsp;&nbsp;</div>
-                        <div>30 000</div>
-                        <div>30 000</div>
-                        <div>40 000</div>
-                      </div>
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget news_widgets">
+                            <h6 class="footer_title">Newsletter</h6>
+                            <p>You can trust us. we only send promo offers, not a single spam.</p>
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                    <div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button class="btn sub-btn">Get Started</button>
+                                    </div>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-
-                    <hr>
-
-                    <div class="second-graph-res">
-                      <div>1 000</div>
-                      <div>6 000</div>
-                      <div>23 500</div>
-                      <div>159 500</div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-1">
+                        <div class="single-footer-widget instafeed">
+                            <h6 class="footer_title">Instagram Feed</h6>
+                            <ul class="list instafeed d-flex flex-wrap">
+                                <li><img src="img/instagram/Image-01.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-02.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-03.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-04.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-05.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-06.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-07.jpg" alt=""></li>
+                                <li><img src="img/instagram/Image-08.jpg" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
-
-                  </div>
-
-              </div>
-
-          </div>
-
-          <!-- Правая часть -->
-          <div class="right-row">
-
-            <!-- Первый блок -->
-            <div id="first-block">
-                <div class="first-block-caption">
-                  <a>ЛАЙТ(ваш тариф)</a>
                 </div>
-                <div class="first-block-text">
-                  <p>заработок: <a>10000 р.</a></p>
-                </div>
-                <div class="first-block-content">
-                  <div>1 линия</div>
-                  <div>50</div>
-                  <div>10 000</div>
-                  <div>2 линия</div>
-                  <div>150</div>
-                  <div>-</div>
-                  <div>3 линия</div>
-                  <div>300</div>
-                  <div>-</div>
-                  <div>4 линии</div>
-                  <div>350</div>
-                  <div>-</div>
-                  <div>5 линия</div>
-                  <div>150</div>
-                  <div>-</div>
-                  <div>6 линия</div>
-                  <div>200</div>
-                  <div>-</div>
-                  <div>7 линия</div>
-                  <div>300</div>
-                  <div>-</div>
-                  <div>8 линия</div>
-                  <div>500</div>
-                  <div>-</div>
-                  <div>9 линия</div>
-                  <div>300</div>
-                  <div>-</div>
-                  <div>10 линия</div>
-                  <div>200</div>
-                  <div>-</div>
+                <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://vk.com/id406860909" target="_blank">Andrey Belyaev</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    <div class="col-lg-4 col-md-4 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
                 </div>
             </div>
-
-            <!-- Второй блок -->
-            <div id="second-block">
-              <p>Лидеры структуры</p>
-              <div class="second-block-content">
-                <div class="left-col">
-                  <div>
-                    <p>Айрат Сайфуллин <br>3 линия</p>
-                  </div>
-                  <div>
-                    <p>Александр Попов<br>4 линия</p>
-                  </div>
-                  <div>
-                    <p>Марат Ильясов<br>6 линия</p>
-                  </div>
-                  <div>
-                    <p>Светлана Фролова<br>6 линия</p>
-                  </div>
-                  <div>
-                    <p>Анастасия Мороз<br>6 линия</p>
-                  </div>
-                  <div>
-                    <p>Лера Алексеева<br>6 линия</p>
-                  </div>
-                  <div>
-                    <div><a href="#">Посмотреть всех</a></div>
-                  </div>
-                </div>
-
-                <div class="right-col">
-                  <div>1200</div>
-                  <div>1100</div>
-                  <div>1050</div>
-                  <div>850</div>
-                  <div>795</div>
-                  <div>632</div>
-                  <div>523</div>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Заявки -->
-            <div id="application">
-
-              <div><p>Присутствие</p></div>
-              <div class="img4"><img src="4.jpg" alt=""></div>
-              <div class="img7"><img src="7.jpg"  alt=""></div>
-
-            </div>
-
-          </div>
-
-      </div>
-
-
-  <script type="text/javascript">
-
-    function bClick(button)
-    {
-      document.getElementById('second-button').style.backgroundColor= '#0041a3';
-      document.getElementById('second-button').style.borderRadius= '50px';
-      document.getElementById('second-button').style.display= 'block';
-      document.getElementById('second-button').style.color=  '#fff';
-      document.getElementById('second-button').style.textDecoration= 'none';
-      document.getElementById('second-button').style.textAlign= 'center';
-      document.getElementById('second-button').style.width= '124px';
-      document.getElementById('second-button').style.height= '40px';
-
-      document.getElementById('third-button').style.color =  '#3c3c3c';
-      document.getElementById('third-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-      document.getElementById('third-button').style.width =  '350px';
-
-      document.getElementById('first-button').style.color =  '#3c3c3c';
-      document.getElementById('first-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-
-      document.getElementById('application').style.display='block';
-      document.getElementById('second-block').style.display='none';
-      document.getElementById('first-block').style.display='none';
-    }
-
-    function aClick(button)
-    {
-      document.getElementById('first-button').style.backgroundColor= '#0041a3';
-      document.getElementById('first-button').style.color=  '#fff';
-      document.getElementById('first-button').style.paddingLeft= '10px';
-      document.getElementById('first-button').style.paddingRight= '10px';
-
-      document.getElementById('second-button').style.color =  '#3c3c3c';
-      document.getElementById('second-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-      document.getElementById('third-button').style.color =  '#3c3c3c';
-      document.getElementById('third-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-
-
-      document.getElementById('application').style.display='none';
-      document.getElementById('second-block').style.display='block';
-      document.getElementById('first-block').style.display='block';
-    }
-
-
-    function cClick(button)
-    {
-      document.getElementById('third-button').style.backgroundColor= '#0041a3';
-      document.getElementById('third-button').style.borderRadius= '50px';
-      document.getElementById('third-button').style.display= 'block';
-      document.getElementById('third-button').style.color=  '#fff';
-      document.getElementById('third-button').style.textDecoration= 'none';
-      document.getElementById('third-button').style.textAlign= 'center';
-      document.getElementById('third-button').style.width= '350px';
-      document.getElementById('second-button').style.height= '33px';
-
-      document.getElementById('first-button').style.color =  '#3c3c3c';
-      document.getElementById('first-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-      document.getElementById('second-button').style.color =  '#3c3c3c';
-      document.getElementById('second-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
-    }
+        </footer>
+		<!--================ End footer Area  =================-->
 
 
 
-  </script>
 
-  </body>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
 </html>
